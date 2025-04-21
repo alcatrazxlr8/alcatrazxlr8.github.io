@@ -9,7 +9,7 @@ Email me at [saransh1000@gmail.com](mailto:saransh1000@gmail.com)
 
 Or fill out this form 
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/manowprg" method="post">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/manowprg" method="post" onsubmit="this.submit(); this.reset(); return false;">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First Name" required="">
