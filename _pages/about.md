@@ -12,6 +12,22 @@ Hi 👋 I'm Saransh!
 A passionate software engineer and developer. I recently graduated from Rutgers (NJ) with a MS in Computer Science
 
 
+- 🔭 I’m currently working on **upskilling myself** and looking for fulltime software positions
+
+- 🌱 I’m currently building with **FastAPI & Python** and plan to dive into **Go**
+
+- 👨‍💻 All of my projects are available on https://www.github.com/alcatrazxlr8
+
+- 📫 You can reach out at **saransh1000@gmail.com** / **saransh.sharma@rutgers.edu**
+
+- 📄 Know about my experiences through my [Resume](https://drive.google.com/file/d/1NfKCcgxe1SY8diFSQNafE1CrztYaTnv6/view?usp=drive_link)
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/alcatrazxlr8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alcatrazxlr8" height="20" width="25" /></a>
+</p>
+<br>
+
 Education
 ------
 ### Rutgers University - New Brunswick (NJ, USA)
