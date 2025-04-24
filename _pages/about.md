@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<br>
 
 Hi 👋 I'm Saransh!
 ======
