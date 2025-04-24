@@ -4,7 +4,6 @@ title: "Projects"
 author_profile: true
 ---
 
-<br>
 
 ## [Receipt Processor](https://github.com/alcatrazxlr8/fetch-backend-appr)
 - Built a RESTful API using Python and FastAPI to process JSON receipt data and compute reward points using

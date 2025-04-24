@@ -4,7 +4,6 @@ title: "Experiences"
 author_profile: true
 ---
 
-<br>
 
 ## Blue Sigma
 _Software Engineer Intern_
