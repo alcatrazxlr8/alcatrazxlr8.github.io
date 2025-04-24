@@ -17,9 +17,9 @@ A passionate software engineer and developer. I recently graduated from Rutgers 
 
 - 🌱 I’m currently building with **FastAPI & Python** and plan to dive into **Go**
 
-- 👨‍💻 All of my projects are available on [https://alcatrazxlr8.github.io/projects/](https://alcatrazxlr8.github.io/projects/)
+- 👨‍💻 All of my projects are available on my [Github](https://github.com/alcatrazxlr8) or [https://alcatrazxlr8.github.io/projects/](https://alcatrazxlr8.github.io/projects/)
 
-- 📫 You can reach out at **[saransh1000@gmail.com](saransh1000@gmail.com)** / **[saransh.sharma@rutgers.edu](saransh.sharma@rutgers.edu)**
+- 📫 You can reach out at **[saransh1000@gmail.com](mailto:saransh1000@gmail.com)** / **[saransh.sharma@rutgers.edu](mailto:saransh.sharma@rutgers.edu)**
 
 - 📄 Know about my experiences through my [Resume](https://alcatrazxlr8.github.io/resume)
 
