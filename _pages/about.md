@@ -25,7 +25,7 @@ A passionate software engineer and developer. I recently graduated from Rutgers 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/alcatrazxlr8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alcatrazxlr8" height="20" width="25" /></a>
+<a href="https://linkedin.com/in/alcatrazxlr8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alcatrazxlr8" height="20" width="25" /></a> or [here](https://alcatrazxlr8.github.io/contact/)
 </p>
 
 Education
