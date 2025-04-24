@@ -7,9 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<!-- <embed src="https://alcatrazxlr8.github.io/files/Saransh_Resume.pdf" type="application/pdf" width="100%" height="1000" /> -->
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,8 +21,8 @@ redirect_from:
             margin: 0;
         }
         iframe {
-            width: 80%; /* You can adjust this percentage to make it larger or smaller */
-            height: 80%; /* Adjust the height as needed */
+            width: 100%; /* You can adjust this percentage to make it larger or smaller */
+            height: 100%; /* Adjust the height as needed */
         }
     </style>
 </head>
