@@ -1,5 +1,5 @@
 ---
-permalink: /experience
+permalink: /experience/
 title: "Experiences"
 author_profile: true
 ---
