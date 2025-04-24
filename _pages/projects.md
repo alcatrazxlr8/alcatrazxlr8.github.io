@@ -28,13 +28,13 @@ secure and scalable task manager
 - Implemented percentile-based categorical transaction bucketing, duplicate checking using SQL to enhance anomaly detection and risk analysis
 
 
-## Ghosts in the Machine
+## [Ghosts in the Machine](https://github.com/alcatrazxlr8/Ghosts-In-The-Maze)
 - Created an N x N grid environment with stochastically moving ghosts, randomly spawned walls and our agent.
 - Implemented various search algorithms (DFS, BFS, BDBFS, A-Star etc.) to plan a path for the agent from start to finish while avoiding ghosts and walls and analyzed their performance. 
 - Used various heuristics, some standard and some novel.
 
 
-## Better, Smarter, Faster
+## [Better, Smarter, Faster](https://github.com/alcatrazxlr8/Better-Smarter-Faster)
 - Simulated a circular graph environment with 3 entities-Agent, Prey, and Predator. The Prey moved probabilistically, while the Agent was optimized to catch it, and the Prey moved greedily toward the Agent.
 - Implemented Markov Chains, designed a custom Neural Network and compared them to optimize the Agent’s decision-making, reducing the time to catch the Prey by 5%
 
