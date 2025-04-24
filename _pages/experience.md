@@ -2,6 +2,10 @@
 permalink: /experience/
 title: "Experiences"
 author_profile: true
+redirect_from:
+  - /experience
+  - /experiences
+  - /experiences/
 ---
 
 

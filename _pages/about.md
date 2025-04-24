@@ -21,7 +21,7 @@ A passionate software engineer and developer. I recently graduated from Rutgers 
 
 - 📫 You can reach out at **[saransh1000@gmail.com]()** / **[saransh.sharma@rutgers.edu]()**
 
-- 📄 Know about my experiences through my [Resume](https://drive.google.com/file/d/1NfKCcgxe1SY8diFSQNafE1CrztYaTnv6/view?usp=drive_link)
+- 📄 Know about my experiences through my [Resume](https://alcatrazxlr8.github.io/resume)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
