@@ -7,40 +7,27 @@ redirect_from:
     - /about.html
 ---
 
-<br>
+# Hi, I'm Saransh 👋
 
-# Hi 👋 I'm Saransh!
+Software Engineer at **Amazon**, Rutgers MS CS grad, and builder of things. I care about writing software that's fast, maintainable, and actually solves problems.
 
-A passionate software engineer and developer. I graduated from Rutgers (NJ) with a MS in Computer Science & am currently working as a Software Engineer, working on a GenAI project
+- 🚀 Currently at **Amazon** as a Software Development Engineer
+- 🌱 Building **RAG Pipelines** with LangChain, VectorDBs, and Ollama
+- 🔭 Exploring **Go** for scalable systems — working through an interpreter
+- 💬 Reach me at [saransh1000@gmail.com](mailto:saransh1000@gmail.com)
+- 📄 See my [Resume](https://alcatrazxlr8.github.io/resume) or [Projects](/projects/)
 
--   🌱 I’m currently building **RAG Pipelines** for Q&A with **LangChain, VectorDBs and Ollama**
-
--   🔭 Looking to dive deeper into **Go** to build scaleable systems and applications, starting with an interpreter (Refer - Throsten Hall)
-
--   👨‍💻 All of my projects are available on my [Github](https://github.com/alcatrazxlr8) or [https://alcatrazxlr8.github.io/projects/](https://alcatrazxlr8.github.io/projects/)
-
--   📫 You can reach out at **[saransh1000@gmail.com](mailto:saransh1000@gmail.com)** / **[saransh.sharma@rutgers.edu](mailto:saransh.sharma@rutgers.edu)**
-
--   📄 Know about my experiences through my [Resume](https://alcatrazxlr8.github.io/resume)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/alcatrazxlr8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alcatrazxlr8" height="20" width="25" /></a> or <a href="https://alcatrazxlr8.github.io/contact/">here</a>
-</p>
+---
 
 ## Education
 
-### Rutgers University - New Brunswick (NJ, USA)
+### Rutgers University — New Brunswick, NJ
 
-_Sep '22 - May '24_
+_Sep 2022 – May 2024 · Master of Science, Computer Science_
 
--   Graduated with a master's in Computer Science
--   Relevant Coursework: Data Structures and Algorithms, Artificial Intelligence, Database Management Systems, Machine Learning, Mathematics for
-    Data Science, Computer Vision, Computer Networks, Data Mining
--   Mentored 250+ students as a Teaching Assistant for undergrad CS courses like Data Structures and Databases
+- Relevant coursework: Data Structures & Algorithms, Artificial Intelligence, Machine Learning, Database Management Systems, Computer Vision, Computer Networks, Data Mining, Mathematics for Data Science
+- Teaching Assistant for undergraduate CS courses — mentored 250+ students across Data Structures and Databases
 
-### Manipal University Jaipur (India)
+### Manipal University Jaipur, India
 
-_Aug '18 - July '22_
-
-<!-- - Graduated with a bachelor's in Computer Science & Engineering -->
+_Aug 2018 – Jul 2022 · Bachelor of Technology, Computer Science & Engineering_

@@ -1,0 +1,346 @@
+/* ==========================================================================
+   CUSTOM MODERN STYLES
+   ========================================================================== */
+
+/* ── CSS Variable Overrides ──────────────────────────────────────────────── */
+
+:root {
+  --accent:               #5164f0;
+  --accent-hover:         #3d4fe0;
+  --accent-subtle:        rgba(81, 100, 240, 0.08);
+  --accent-border:        rgba(81, 100, 240, 0.22);
+
+  --global-text-color:              #1b1d2b;
+  --global-text-color-light:        #64748b;
+  --global-link-color:              #5164f0;
+  --global-link-color-hover:        #3d4fe0;
+  --global-link-color-visited:      #7b8ef5;
+  --global-bg-color:                #ffffff;
+  --global-footer-bg-color:         #f8fafc;
+  --global-border-color:            #e4e7ec;
+  --global-dark-border-color:       #c8cdd5;
+  --global-thead-color:             #f1f5f9;
+  --global-code-background-color:   #f8fafc;
+  --global-masthead-link-color:     #374151;
+  --global-masthead-link-color-hover: #5164f0;
+}
+
+html[data-theme="dark"] {
+  --accent:               #7c9ef8;
+  --accent-hover:         #93b0ff;
+  --accent-subtle:        rgba(124, 158, 248, 0.1);
+  --accent-border:        rgba(124, 158, 248, 0.22);
+
+  --global-bg-color:                #0d1117;
+  --global-footer-bg-color:         #090c12;
+  --global-text-color:              #cdd9e5;
+  --global-text-color-light:        #768390;
+  --global-link-color:              #7c9ef8;
+  --global-link-color-hover:        #93b0ff;
+  --global-link-color-visited:      #6b8ff0;
+  --global-border-color:            #21262d;
+  --global-dark-border-color:       #30363d;
+  --global-thead-color:             #161b22;
+  --global-code-background-color:   #161b22;
+  --global-masthead-link-color:     #cdd9e5;
+  --global-masthead-link-color-hover: #7c9ef8;
+}
+
+/* ── Base ────────────────────────────────────────────────────────────────── */
+
+body {
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.025em;
+}
+
+/* ── Masthead ────────────────────────────────────────────────────────────── */
+
+.masthead {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-bottom: 1px solid var(--global-border-color) !important;
+  box-shadow: none;
+
+  &::after { display: none; }
+
+  &__inner-wrap {
+    padding: 0.55em 1.5em;
+  }
+}
+
+html[data-theme="dark"] .masthead {
+  background: rgba(13, 17, 23, 0.88) !important;
+}
+
+.masthead__menu-item {
+  background: transparent !important;
+
+  a {
+    font-size: 0.88em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    padding: 0.35em 0.7em;
+    border-radius: 6px;
+    color: var(--global-masthead-link-color);
+    transition: background 0.18s ease, color 0.18s ease;
+
+    &:hover {
+      background: var(--global-thead-color);
+      color: var(--accent);
+      text-decoration: none;
+    }
+  }
+
+  &--lg a {
+    font-weight: 700;
+    font-size: 0.95em;
+    letter-spacing: -0.01em;
+    padding: 0;
+    background: none !important;
+
+    &:hover {
+      background: none !important;
+      color: var(--accent);
+    }
+  }
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+
+.author__avatar img {
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  box-shadow:
+    0 0 0 3px var(--global-bg-color),
+    0 0 0 5px var(--accent),
+    0 8px 28px rgba(81, 100, 240, 0.18);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow:
+      0 0 0 3px var(--global-bg-color),
+      0 0 0 5px var(--accent-hover),
+      0 12px 36px rgba(81, 100, 240, 0.3);
+  }
+}
+
+html[data-theme="dark"] .author__avatar img {
+  box-shadow:
+    0 0 0 3px var(--global-bg-color),
+    0 0 0 5px var(--accent),
+    0 8px 28px rgba(0, 0, 0, 0.4);
+}
+
+.author__name {
+  font-weight: 700;
+  font-size: 1.05em;
+  letter-spacing: -0.02em;
+}
+
+.author__bio {
+  font-size: 0.82em;
+  line-height: 1.55;
+  color: var(--global-text-color-light);
+}
+
+.author__urls a {
+  font-size: 0.87em;
+  border-radius: 6px;
+  padding: 0.28em 0.45em;
+  transition: background 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background: var(--global-thead-color);
+    color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+.btn--inverse {
+  border-radius: 8px;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--global-border-color);
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-subtle);
+  }
+}
+
+/* ── Page title ──────────────────────────────────────────────────────────── */
+
+.page__title {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  font-size: 1.55em;
+}
+
+/* ── Page content ────────────────────────────────────────────────────────── */
+
+.page__content {
+  animation: fadeInUp 0.38s ease both;
+
+  h2 {
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-left: 0.7em;
+    border-left: 3px solid var(--accent);
+    margin-top: 2.2em;
+    font-size: 1.15em;
+    font-weight: 700;
+  }
+
+  p, li {
+    line-height: 1.78;
+  }
+
+  a:not(.btn) {
+    color: var(--global-link-color);
+    text-decoration: none;
+    background-image: linear-gradient(var(--accent), var(--accent));
+    background-size: 0% 1.5px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    transition: background-size 0.22s ease, color 0.18s ease;
+
+    &:hover {
+      color: var(--accent-hover);
+      background-size: 100% 1.5px;
+      text-decoration: none;
+    }
+  }
+
+  ul li::marker {
+    color: var(--accent);
+  }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Experience Cards ────────────────────────────────────────────────────── */
+
+.exp-card {
+  padding: 1.35em 1.6em;
+  margin-bottom: 1.1em;
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  background: var(--global-bg-color);
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-left-color 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 6px 28px rgba(81, 100, 240, 0.1);
+    transform: translateX(4px);
+    border-left-color: var(--accent-hover);
+  }
+}
+
+html[data-theme="dark"] .exp-card {
+  background: #0d1117;
+  border-color: #21262d;
+
+  &:hover {
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.exp-company-info h2 {
+  margin: 0 0 0.2em 0;
+  font-size: 1.08em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  border: none;
+  padding: 0;
+}
+
+.exp-role {
+  display: block;
+  font-size: 0.86em;
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
+.exp-duration {
+  display: inline-block;
+  font-size: 0.73em;
+  background: var(--accent-subtle);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  padding: 0.22em 0.85em;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-weight: 600;
+  align-self: flex-start;
+  margin-top: 0.1em;
+  letter-spacing: 0.02em;
+}
+
+html[data-theme="dark"] .exp-duration {
+  background: var(--accent-subtle);
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+
+.exp-card ul {
+  margin-top: 0.85em;
+  margin-bottom: 0;
+  padding-left: 1.2em;
+}
+
+.exp-card li {
+  margin-bottom: 0.4em;
+  font-size: 0.93em;
+  line-height: 1.68;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+
+.page__footer {
+  border-top: 1px solid var(--global-border-color);
+  font-size: 0.8em;
+}
+
+/* ── Scrollbar (webkit) ──────────────────────────────────────────────────── */
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--global-border-color);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--global-text-color-light); }
+
+/* ── Selection ───────────────────────────────────────────────────────────── */
+
+::selection {
+  background: rgba(81, 100, 240, 0.18);
+  color: var(--global-text-color);
+}
+
+html[data-theme="dark"] ::selection {
+  background: rgba(124, 158, 248, 0.25);
+}
